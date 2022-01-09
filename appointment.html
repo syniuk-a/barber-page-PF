@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,700;1,400;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title lang="ru">БАРБЕР ШОП</title>
+</head>
+
+<!-- ====== СТРАНИЦА ДВА===== -->
+
+<body>
+    <header class="header-line">
+        <a class="logo" href="./index.html">
+            <img class="logo-img" src="./IMG/NAV/logo.png" alt="logotype">
+        </a>
+        <nav class="navigation-header">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./appointment.html">Appointment</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./services.html">Services</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./team.html">Team</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./reviews.html">Reviews</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bg-img__appointment">
+        <section>
+            <h1 class="appointmet-title">
+                Make and Appointment Now!
+            </h1>
+            <!-- <img src="./IMG/APPOINTMENT/bg-img.png" alt="bg_img"> -->
+            <div class="bg-container__home">
+                <form class="form-appointment" action="#" method="post" autocomplete="off">
+                    <div class="">
+                        <label class="" for="user-name"></label>
+                        <input class="member-form" id="user-name" type="text" name="name" placeholder="Full Name"
+                            required>
+                    </div>
+                    <div class="">
+                        <label class="" for="user-mail"></label>
+                        <input class="member-form" id="user-mail" type="mail" name="mail" placeholder="Email" required>
+                    </div>
+                    <div class="">
+                        <label class="" for="user-tel"></label>
+                        <input class="member-form" id="user-tel" type="tel" name="tel" placeholder="Mobile" required>
+                    </div>
+                    <div class="">
+                        <label class="" for="user-date"></label>
+                        <input class="member-form" id="user-date" type="date" name="date" placeholder="Date" required>
+                    </div>
+                    <div class="">
+                        <label class="" for="user-time"></label>
+                        <input class="member-form" id="user-time" type="time" name="time" placeholder="Time Slot"
+                            required>
+                    </div>
+                    <div>
+                        <button class="btn-booking" type="submit" width="478" , heigth="95">CONFIRM BOOKING</button>
+                    </div>
+                </form>
+            </div>
+            <div class="registration-form">
+                <h2 class="sale-text">Become a Member and avail 20% off on your bookings!</h2>
+                <button class="btn-memberhip" disabled="disabled" width="271" , heigth="38">Get Membership</button>
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>
